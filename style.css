@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #e9d5ff);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #312e81;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #6b628c;
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.quote-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(49, 46, 129, 0.12);
+    border: 1px solid #e4ddff;
+}
+
+.quote-icon {
+    font-size: 55px;
+    color: #8b5cf6;
+}
+
+#quote {
+    color: #29245c;
+    font-size: 25px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+#author {
+    color: #8b5cf6;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    background: #6d4aff;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4c2bd9;
+    transform: translateY(-3px);
+}
+
+.copy-btn {
+    background: #312e81;
+}
+
+.history-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.history-section h2 {
+    color: #312e81;
+    margin-bottom: 20px;
+}
+
+.history-item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.history-item p {
+    color: #393366;
+    line-height: 1.5;
+}
+
+.history-item h4 {
+    color: #8b5cf6;
+    margin-top: 10px;
+}
+
+.empty {
+    color: #6b628c;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    #quote {
+        font-size: 20px;
+    }
+
+    .quote-box {
+        padding: 25px 18px;
+    }
+}

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>✨ Quote Generator</h1>
+        <p class="subtitle">Find inspiration in every word.</p>
+
+        <div class="quote-box">
+
+            <div class="quote-icon">❝</div>
+
+            <h2 id="quote">
+                Click the button to generate a quote!
+            </h2>
+
+            <p id="author">— Unknown</p>
+
+            <div class="buttons">
+                <button onclick="getQuote()">New Quote</button>
+                <button class="copy-btn" onclick="copyQuote()">Copy Quote</button>
+            </div>
+
+        </div>
+
+        <div class="history-section">
+            <h2>📖 Quote History</h2>
+            <div id="history">
+                <p class="empty">Your saved quotes will appear here.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
